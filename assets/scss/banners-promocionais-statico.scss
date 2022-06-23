@@ -1,0 +1,50 @@
+.banners-promocionais-statico {
+  margin-top: 20px;
+
+  .banners-promocionais-statico-12x {
+    background-color: $rosa;
+    background-image: url("../img/parcele-em-12x.jpg");
+    background: cover;
+    height: 105px;
+    padding: 20px 60px;
+    color: $branco;
+
+    svg,
+    p {
+      margin: 0;
+      padding: 0;
+    }
+    p {
+      font-weight: 100;
+      font-size: 23px;
+      line-height: 110%;
+      margin-left: 28px;
+      strong {
+        font-weight: bold;
+      }
+    }
+  }
+  .banners-promocionais-statico-todo-br {
+    background-color: $roxo;
+    background-image: url("../img/entrega-para-todo-brasil.jpg");
+    background: cover;
+    height: 105px;
+    padding: 20px 60px;
+    color: $branco;
+
+    svg,
+    p {
+      margin: 0;
+      padding: 0;
+    }
+    p {
+      font-weight: 100;
+      font-size: 23px;
+      line-height: 110%;
+      margin-left: 28px;
+      strong {
+        font-weight: bold;
+      }
+    }
+  }
+}
